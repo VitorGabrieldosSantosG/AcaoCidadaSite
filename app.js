@@ -1,4 +1,4 @@
-const API = window.API_BASE || 'http://136.248.118.64:3000'; // ajuste para seu IP público
+const API = window.API_BASE || 'https://acaocidada.duckdns.org'; // ajuste para seu IP público
 
 const btnLogin = document.getElementById('btnLogin');
 const btnRegister = document.getElementById('btnRegister');
