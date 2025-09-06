@@ -1,4 +1,4 @@
-const API = window.API_BASE || 'http://localhost:3000';
+const API = window.API_BASE || 'https://acaocidada.duckdns.org';
 const user = JSON.parse(localStorage.getItem('user') || '{}');
 if (!user || !user.id) { /* exige login */ }
 
