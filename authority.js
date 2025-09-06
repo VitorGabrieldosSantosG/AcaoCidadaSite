@@ -1,4 +1,4 @@
-const API = window.API_BASE || 'http://localhost:3000';
+const API = window.API_BASE || 'https://acaocidada.duckdns.org';
 
 async function carregar(){
   const r = await fetch(API + '/authority/events');
